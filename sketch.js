@@ -70,8 +70,9 @@ function setup() {
 
 function draw() {
   //trex.debug = true;
-  background("red");
+  background("white");
   text("Score: "+ score, 500,50);
+  text("Thank you for registering. Please visit the site again and login through registered credentials", 300,100)
   
   if (gameState===PLAY){
     score = score + Math.round(getFrameRate()/60);
